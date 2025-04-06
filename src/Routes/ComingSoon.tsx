@@ -1,4 +1,6 @@
+import { MovieList } from "../Components/MovieList";
+
 function ComingSoon() {
-    return <h1>coming soon</h1>;
-  }
-  export default ComingSoon;
+  return <MovieList category="upcoming" />;
+}
+export default ComingSoon;

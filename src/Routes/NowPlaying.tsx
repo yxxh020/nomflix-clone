@@ -1,4 +1,6 @@
+import { MovieList } from "../Components/MovieList";
+
 function NowPlaying() {
-  return <h1>Now Playing</h1>;
+  return <MovieList category="now_playing" />;
 }
 export default NowPlaying;
